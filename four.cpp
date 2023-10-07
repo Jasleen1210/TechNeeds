@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"high?";//yeah i am 
+    cout<<"high?";//yeah
     int high;
     cin>>high;
     cout<<endl;
