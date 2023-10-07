@@ -6,17 +6,16 @@ int main(){
     cout<<"Number daalo";
     cin>>m;
     if(m>=1 && m<1000000000){
-        cout<<"miskay muska minney mouse";
         int count=0;
         while(m>0){
             d=m%10; 
             m=m/10;
             count+=1;
         }
-        cout<<count;
+        cout<<"number of digits in "<<n<<"are/is "<<count;
     }
     else{
-        cout<<"error";
+        cout<<"error: incorrect input";
     }
     
 }
